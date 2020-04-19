@@ -38,7 +38,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Mlu-lh-3Et" kind="show" id="TOn-LV-o2w"/>
+                                    <segue destination="Mlu-lh-3Et" kind="show" id="1zh-71-lrk"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ECO APP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooW-JR-k70">
@@ -92,7 +92,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ziG-gj-zQf" kind="show" id="aQC-Xp-DEn"/>
+                                    <action selector="SignUpTapped:" destination="Mlu-lh-3Et" eventType="touchUpInside" id="6fc-YF-RQa"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ECO APP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnm-fE-eXn">
@@ -167,6 +167,12 @@
                         <viewLayoutGuide key="safeArea" id="oJB-ak-sba"/>
                     </view>
                     <navigationItem key="navigationItem" id="RBG-On-RFN"/>
+                    <connections>
+                        <outlet property="confirm" destination="iTe-6p-T0N" id="tDG-Up-tr3"/>
+                        <outlet property="email" destination="Wnx-dG-dVw" id="qsz-IE-25J"/>
+                        <outlet property="password" destination="lMQ-rG-cDY" id="lHR-sb-EbL"/>
+                        <segue destination="ziG-gj-zQf" kind="show" identifier="signUpToHome" id="Igx-rr-O0T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Du-Tq-JAb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -332,6 +338,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Uhl-IL-ure"/>
+        <segue reference="Igx-rr-O0T"/>
     </inferredMetricsTieBreakers>
 </document>
