@@ -16,11 +16,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMd-4G-uPr">
-                                <rect key="frame" x="100" y="616.5" width="214" height="50"/>
+                                <rect key="frame" x="100" y="602" width="214" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="LMm-n9-MPf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="LOGIN">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -33,7 +33,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="0fu-aF-2mf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="SIGNUP">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -63,7 +63,7 @@
                             <constraint firstItem="128-bb-iwy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6UF-N6-d4h"/>
                             <constraint firstItem="128-bb-iwy" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.5" id="Qpb-3F-2s9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fMd-4G-uPr" secondAttribute="trailing" constant="100" id="aJM-Nw-NFz"/>
-                            <constraint firstItem="fMd-4G-uPr" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.35" id="cl3-Ec-HjB"/>
+                            <constraint firstItem="fMd-4G-uPr" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.32" id="cl3-Ec-HjB"/>
                             <constraint firstItem="yx6-Cv-FqQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ghJ-CW-IGj"/>
                             <constraint firstItem="ooW-JR-k70" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.42" constant="1" id="jXp-B2-mRA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="128-bb-iwy" secondAttribute="trailing" constant="100" id="jvm-sk-yOP"/>
@@ -86,8 +86,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkT-KY-p61">
-                                <rect key="frame" x="154.5" y="697" width="105" height="45"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                <rect key="frame" x="149" y="694" width="116" height="48"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="SIGNUP">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -101,13 +101,67 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PrE-hN-5yc">
+                                <rect key="frame" x="29" y="218" width="356" height="277"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkU-ne-nM7">
+                                        <rect key="frame" x="0.0" y="0.0" width="79" height="45"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                        <state key="normal" title="Email:">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wnx-dG-dVw">
+                                        <rect key="frame" x="0.0" y="53" width="356" height="34"/>
+                                        <color key="backgroundColor" red="0.01212082425" green="0.73568369290000002" blue="0.45230553309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ley-el-e3M">
+                                        <rect key="frame" x="0.0" y="95" width="135" height="45"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                        <state key="normal" title="Password:">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lMQ-rG-cDY">
+                                        <rect key="frame" x="0.0" y="148" width="356" height="34"/>
+                                        <color key="backgroundColor" red="0.01212082425" green="0.73568369290000002" blue="0.45230553309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxl-Yw-3vH">
+                                        <rect key="frame" x="0.0" y="190" width="244" height="45"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                        <state key="normal" title="Re-type Password:">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iTe-6p-T0N">
+                                        <rect key="frame" x="0.0" y="243" width="356" height="34"/>
+                                        <color key="backgroundColor" red="0.01212082425" green="0.73568369290000002" blue="0.45230553309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="lMQ-rG-cDY" secondAttribute="trailing" id="8CW-hf-QXC"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wnx-dG-dVw" secondAttribute="trailing" id="UmI-RT-buM"/>
+                                    <constraint firstAttribute="trailing" secondItem="iTe-6p-T0N" secondAttribute="trailing" id="hxL-jJ-skx"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.0081794057039999996" green="0.61281424760000003" blue="0.37149119380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="PrE-hN-5yc" firstAttribute="centerY" secondItem="oJB-ak-sba" secondAttribute="centerY" multiplier="0.75" id="5h1-sR-tR1"/>
                             <constraint firstItem="gnm-fE-eXn" firstAttribute="centerY" secondItem="oJB-ak-sba" secondAttribute="centerY" multiplier="0.3" constant="1" id="B1C-0y-eZa"/>
                             <constraint firstItem="jkT-KY-p61" firstAttribute="centerX" secondItem="oJB-ak-sba" secondAttribute="centerX" id="Dxq-TK-f1m"/>
-                            <constraint firstItem="jkT-KY-p61" firstAttribute="leading" secondItem="oJB-ak-sba" secondAttribute="leading" constant="154.5" id="FM1-6g-TTu"/>
+                            <constraint firstItem="PrE-hN-5yc" firstAttribute="width" secondItem="Dnv-mD-Qlp" secondAttribute="width" multiplier="0.86" id="IZ1-mX-3aa"/>
                             <constraint firstItem="gnm-fE-eXn" firstAttribute="centerX" secondItem="oJB-ak-sba" secondAttribute="centerX" id="MDj-ch-JAa"/>
+                            <constraint firstItem="PrE-hN-5yc" firstAttribute="centerX" secondItem="oJB-ak-sba" secondAttribute="centerX" id="Nfu-ja-YjS"/>
                             <constraint firstItem="oJB-ak-sba" firstAttribute="bottom" secondItem="jkT-KY-p61" secondAttribute="bottom" constant="120" id="WIh-Ho-y4f"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="oJB-ak-sba"/>
@@ -126,9 +180,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="whx-Ws-t12">
+                                <rect key="frame" x="29" y="226" width="356" height="194"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqB-YB-6Ae">
+                                        <rect key="frame" x="0.0" y="0.0" width="79" height="45"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                        <state key="normal" title="Email:">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kwk-2s-bc8">
+                                        <rect key="frame" x="0.0" y="57" width="356" height="34"/>
+                                        <color key="backgroundColor" red="0.012120824250660701" green="0.73568369289340096" blue="0.45230553306870552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.0092320576859616817" green="0.5603475597827412" blue="0.34450716276513316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAv-R2-z1s">
+                                        <rect key="frame" x="0.0" y="103" width="135" height="45"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                        <state key="normal" title="Password:">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AeQ-zI-Vlh">
+                                        <rect key="frame" x="0.0" y="160" width="356" height="34"/>
+                                        <color key="backgroundColor" red="0.012120824250660701" green="0.73568369289340096" blue="0.45230553306870552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.0092320576859616817" green="0.5603475597827412" blue="0.34450716276513316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="kwk-2s-bc8" secondAttribute="trailing" id="6N8-cK-05Q"/>
+                                    <constraint firstAttribute="trailing" secondItem="AeQ-zI-Vlh" secondAttribute="trailing" id="cfN-MZ-GOE"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ECO APP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IZ-HP-9Qs">
+                                <rect key="frame" x="102" y="114.5" width="210" height="56.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="47"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Saw-1g-n7O">
-                                <rect key="frame" x="172" y="697" width="86" height="45"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                <rect key="frame" x="159.5" y="694" width="95" height="48"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="LOGIN">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -136,33 +233,16 @@
                                     <segue destination="ziG-gj-zQf" kind="show" id="Uhl-IL-ure"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ECO APP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IZ-HP-9Qs">
-                                <rect key="frame" x="102" y="114.5" width="210" height="56.5"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="47"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kwk-2s-bc8">
-                                <rect key="frame" x="21" y="308" width="347" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqB-YB-6Ae">
-                                <rect key="frame" x="21" y="255" width="85" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
-                                <state key="normal" title="EMAIL">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0081794057039999996" green="0.61281424760000003" blue="0.37149119380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="0IZ-HP-9Qs" firstAttribute="centerY" secondItem="Ie9-wH-a5D" secondAttribute="centerY" multiplier="0.3" id="0Hd-CA-6d8"/>
                             <constraint firstItem="0IZ-HP-9Qs" firstAttribute="centerX" secondItem="Ie9-wH-a5D" secondAttribute="centerX" id="0f5-Sv-1YR"/>
+                            <constraint firstItem="whx-Ws-t12" firstAttribute="centerY" secondItem="Ie9-wH-a5D" secondAttribute="centerY" multiplier="0.68" id="4f0-zr-bDT"/>
                             <constraint firstItem="Ie9-wH-a5D" firstAttribute="bottom" secondItem="Saw-1g-n7O" secondAttribute="bottom" constant="120" id="Y1H-mU-hkz"/>
-                            <constraint firstItem="Saw-1g-n7O" firstAttribute="leading" secondItem="Ie9-wH-a5D" secondAttribute="leading" constant="172" id="sOO-zn-107"/>
+                            <constraint firstItem="whx-Ws-t12" firstAttribute="centerX" secondItem="Ie9-wH-a5D" secondAttribute="centerX" id="bfC-hq-sZx"/>
+                            <constraint firstItem="whx-Ws-t12" firstAttribute="width" secondItem="q7A-tz-g8v" secondAttribute="width" multiplier="0.86" id="ctp-wS-Csu"/>
+                            <constraint firstItem="Saw-1g-n7O" firstAttribute="centerX" secondItem="Ie9-wH-a5D" secondAttribute="centerX" id="eKi-BU-Ubf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ie9-wH-a5D"/>
                     </view>
@@ -191,6 +271,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.0081794057039999996" green="0.61281424760000003" blue="0.37149119380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <segue destination="1lQ-Pp-U4T" kind="show" id="uzi-7i-CH8"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -204,6 +288,22 @@
             </objects>
             <point key="canvasLocation" x="3180" y="188"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="rkY-hJ-fSv">
+            <objects>
+                <viewController id="1lQ-Pp-U4T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9fE-wu-Po1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0081794057039999996" green="0.61281424760000003" blue="0.37149119380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Tqe-jX-IaI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9jY-Ec-OOR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="od9-Tc-8Pd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3929" y="188"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="acL-k7-iVy">
             <objects>
@@ -213,7 +313,7 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.36385628172588835" green="0.21859119453259254" blue="0.14492904466755929" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" red="1" green="0.9826766583326787" blue="0.85215168863240731" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.8740940007338347" green="1" blue="0.28349309749576801" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.0081794057039999996" green="0.61281424760000003" blue="0.37149119380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
