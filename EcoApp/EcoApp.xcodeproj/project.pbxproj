@@ -19,7 +19,8 @@
 		C560BF12244C74E700A79D8C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560BF11244C74E700A79D8C /* HomeTableViewController.swift */; };
 		C560BF14244C751F00A79D8C /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560BF13244C751F00A79D8C /* TaskViewController.swift */; };
 		C560BF18244C7B3800A79D8C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C560BF17244C7B3800A79D8C /* Default-568h@2x.png */; };
-		C560BF1B244C7D3200A79D8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C560BF1A244C7D3100A79D8C /* GoogleService-Info.plist */; };
+		C560BF1D244C847D00A79D8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C560BF1C244C847D00A79D8C /* GoogleService-Info.plist */; };
+		C560BF1F244C85F400A79D8C /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560BF1E244C85F400A79D8C /* ViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +39,8 @@
 		C560BF11244C74E700A79D8C /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		C560BF13244C751F00A79D8C /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		C560BF17244C7B3800A79D8C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C560BF1A244C7D3100A79D8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C560BF1C244C847D00A79D8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C560BF1E244C85F400A79D8C /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
 		ED076F675951308F6FF4EE04 /* Pods-EcoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoApp.debug.xcconfig"; path = "Target Support Files/Pods-EcoApp/Pods-EcoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				C523AC01244B87BF0088FB3E /* Main.storyboard */,
+				C560BF1E244C85F400A79D8C /* ViewControllerExtensions.swift */,
 				C560BF16244C754E00A79D8C /* Controller */,
 				C523AC0F244BABA40088FB3E /* Resources */,
 			);
@@ -98,8 +101,8 @@
 				C523ABFD244B87BF0088FB3E /* SceneDelegate.swift */,
 				C523AC04244B87C20088FB3E /* Assets.xcassets */,
 				C523AC06244B87C20088FB3E /* LaunchScreen.storyboard */,
-				C560BF1A244C7D3100A79D8C /* GoogleService-Info.plist */,
 				C523AC09244B87C20088FB3E /* Info.plist */,
+				C560BF1C244C847D00A79D8C /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -195,7 +198,7 @@
 			files = (
 				C523AC08244B87C20088FB3E /* LaunchScreen.storyboard in Resources */,
 				C523AC05244B87C20088FB3E /* Assets.xcassets in Resources */,
-				C560BF1B244C7D3200A79D8C /* GoogleService-Info.plist in Resources */,
+				C560BF1D244C847D00A79D8C /* GoogleService-Info.plist in Resources */,
 				C560BF18244C7B3800A79D8C /* Default-568h@2x.png in Resources */,
 				C523AC03244B87BF0088FB3E /* Main.storyboard in Resources */,
 			);
@@ -250,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C560BF1F244C85F400A79D8C /* ViewControllerExtensions.swift in Sources */,
 				C560BF12244C74E700A79D8C /* HomeTableViewController.swift in Sources */,
 				C560BF14244C751F00A79D8C /* TaskViewController.swift in Sources */,
 				C560BF0E244C74CC00A79D8C /* LogInViewController.swift in Sources */,

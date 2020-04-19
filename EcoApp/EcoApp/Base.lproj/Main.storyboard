@@ -72,6 +72,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="JL9-kO-DBq"/>
+                    <connections>
+                        <segue destination="ziG-gj-zQf" kind="show" identifier="loggedIn" id="POU-o7-bgm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -199,6 +202,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kwk-2s-bc8">
                                         <rect key="frame" x="0.0" y="57" width="356" height="34"/>
                                         <color key="backgroundColor" red="0.012120824250660701" green="0.73568369289340096" blue="0.45230553306870552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" red="0.0092320576859616817" green="0.5603475597827412" blue="0.34450716276513316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -213,6 +217,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AeQ-zI-Vlh">
                                         <rect key="frame" x="0.0" y="160" width="356" height="34"/>
                                         <color key="backgroundColor" red="0.012120824250660701" green="0.73568369289340096" blue="0.45230553306870552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" red="0.0092320576859616817" green="0.5603475597827412" blue="0.34450716276513316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -236,7 +241,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ziG-gj-zQf" kind="show" id="Uhl-IL-ure"/>
+                                    <action selector="logInTapped:" destination="yzj-vL-hzq" eventType="touchUpInside" id="a4G-Do-HxO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -253,6 +258,11 @@
                         <viewLayoutGuide key="safeArea" id="Ie9-wH-a5D"/>
                     </view>
                     <navigationItem key="navigationItem" id="icJ-4W-Wwd"/>
+                    <connections>
+                        <outlet property="email" destination="kwk-2s-bc8" id="KwS-y0-2fO"/>
+                        <outlet property="password" destination="AeQ-zI-Vlh" id="zJo-le-5Vt"/>
+                        <segue destination="ziG-gj-zQf" kind="show" identifier="logInToHome" id="RC8-4X-6rW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cG2-1g-tHL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -268,6 +278,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="separatorColor" red="0.0081794057039999996" green="0.61281424760000003" blue="0.37149119380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="sectionIndexBackgroundColor" red="0.0081794057039999996" green="0.61281424760000003" blue="0.37149119380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fsE-t1-ctB">
+                            <rect key="frame" x="0.0" y="99.5" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.90421182009901524" green="1" blue="0.42624020045492028" alpha="0.2753103595890411" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                            <state key="normal" title="LOG OUT">
+                                <color key="titleColor" red="0.0079678809500000006" green="0.70452189359999995" blue="0.44040049590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="logOutTapped:" destination="ziG-gj-zQf" eventType="touchUpInside" id="46A-Qh-Uqm"/>
+                            </connections>
+                        </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="taskCell" id="9AO-Ui-OH6">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -338,6 +360,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Igx-rr-O0T"/>
+        <segue reference="POU-o7-bgm"/>
     </inferredMetricsTieBreakers>
 </document>
