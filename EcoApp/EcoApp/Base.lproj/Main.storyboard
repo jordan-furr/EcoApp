@@ -205,7 +205,7 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" red="0.0092320576859616817" green="0.5603475597827412" blue="0.34450716276513316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAv-R2-z1s">
                                         <rect key="frame" x="0.0" y="103" width="135" height="45"/>
@@ -310,11 +310,46 @@
                             <outlet property="delegate" destination="ziG-gj-zQf" id="jNd-c0-DFV"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ECO APP" id="2x6-Mc-2QH"/>
+                    <navigationItem key="navigationItem" title="ECO APP" id="2x6-Mc-2QH">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="zaB-wK-cZI">
+                            <connections>
+                                <segue destination="S6w-1h-WsU" kind="show" id="SCI-Is-SZn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="psj-G3-b1Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3180" y="188"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="Xah-cJ-AdS">
+            <objects>
+                <tableViewController id="S6w-1h-WsU" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tih-lQ-vL8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="7lw-h2-c2G">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7lw-h2-c2G" id="Pwz-ue-dqe">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="S6w-1h-WsU" id="Ho6-8g-1ac"/>
+                            <outlet property="delegate" destination="S6w-1h-WsU" id="Odc-GI-90a"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="J8x-N3-hwR"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZF-nl-GOR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4054" y="-354"/>
         </scene>
         <!--Task View Controller-->
         <scene sceneID="rkY-hJ-fSv">
@@ -330,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="od9-Tc-8Pd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3929" y="188"/>
+            <point key="canvasLocation" x="4188" y="394"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="acL-k7-iVy">
