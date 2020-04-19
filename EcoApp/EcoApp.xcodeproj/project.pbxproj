@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D49CDFFFDD5396F4B21EBFF /* Pods_EcoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940D15721B4ED404A34F8401 /* Pods_EcoApp.framework */; };
 		C523ABFC244B87BF0088FB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523ABFB244B87BF0088FB3E /* AppDelegate.swift */; };
 		C523ABFE244B87BF0088FB3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523ABFD244B87BF0088FB3E /* SceneDelegate.swift */; };
 		C523AC03244B87BF0088FB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C523AC01244B87BF0088FB3E /* Main.storyboard */; };
 		C523AC05244B87C20088FB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C523AC04244B87C20088FB3E /* Assets.xcassets */; };
 		C523AC08244B87C20088FB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C523AC06244B87C20088FB3E /* LaunchScreen.storyboard */; };
+		C523AC11244BF6BD0088FB3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C523AC10244BF6BC0088FB3E /* GoogleService-Info.plist */; };
+		C560BF0C244C74B900A79D8C /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560BF0B244C74B900A79D8C /* SetUpViewController.swift */; };
+		C560BF0E244C74CC00A79D8C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560BF0D244C74CC00A79D8C /* LogInViewController.swift */; };
+		C560BF10244C74D700A79D8C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560BF0F244C74D700A79D8C /* SignUpViewController.swift */; };
+		C560BF12244C74E700A79D8C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560BF11244C74E700A79D8C /* HomeTableViewController.swift */; };
+		C560BF14244C751F00A79D8C /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560BF13244C751F00A79D8C /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69EAC3F74E74CC0FCA582F07 /* Pods-EcoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoApp.release.xcconfig"; path = "Target Support Files/Pods-EcoApp/Pods-EcoApp.release.xcconfig"; sourceTree = "<group>"; };
+		940D15721B4ED404A34F8401 /* Pods_EcoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C523ABF8244B87BF0088FB3E /* EcoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C523ABFB244B87BF0088FB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C523ABFD244B87BF0088FB3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +31,13 @@
 		C523AC04244B87C20088FB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C523AC07244B87C20088FB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C523AC09244B87C20088FB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C523AC10244BF6BC0088FB3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C560BF0B244C74B900A79D8C /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
+		C560BF0D244C74CC00A79D8C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		C560BF0F244C74D700A79D8C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C560BF11244C74E700A79D8C /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		C560BF13244C751F00A79D8C /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		ED076F675951308F6FF4EE04 /* Pods-EcoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoApp.debug.xcconfig"; path = "Target Support Files/Pods-EcoApp/Pods-EcoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D49CDFFFDD5396F4B21EBFF /* Pods_EcoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77BE2AD600A91B7B8BD77766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940D15721B4ED404A34F8401 /* Pods_EcoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C523ABEF244B87BE0088FB3E = {
 			isa = PBXGroup;
 			children = (
 				C523ABFA244B87BF0088FB3E /* EcoApp */,
 				C523ABF9244B87BF0088FB3E /* Products */,
+				F3DB36A667CDF7616764EF58 /* Pods */,
+				77BE2AD600A91B7B8BD77766 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				C523AC01244B87BF0088FB3E /* Main.storyboard */,
+				C560BF16244C754E00A79D8C /* Controller */,
 				C523AC0F244BABA40088FB3E /* Resources */,
 			);
 			path = EcoApp;
@@ -68,8 +96,38 @@
 				C523AC04244B87C20088FB3E /* Assets.xcassets */,
 				C523AC06244B87C20088FB3E /* LaunchScreen.storyboard */,
 				C523AC09244B87C20088FB3E /* Info.plist */,
+				C523AC10244BF6BC0088FB3E /* GoogleService-Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C560BF15244C753600A79D8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C560BF0B244C74B900A79D8C /* SetUpViewController.swift */,
+				C560BF0D244C74CC00A79D8C /* LogInViewController.swift */,
+				C560BF0F244C74D700A79D8C /* SignUpViewController.swift */,
+				C560BF11244C74E700A79D8C /* HomeTableViewController.swift */,
+				C560BF13244C751F00A79D8C /* TaskViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C560BF16244C754E00A79D8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C560BF15244C753600A79D8C /* Views */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F3DB36A667CDF7616764EF58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED076F675951308F6FF4EE04 /* Pods-EcoApp.debug.xcconfig */,
+				69EAC3F74E74CC0FCA582F07 /* Pods-EcoApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C523AC0C244B87C20088FB3E /* Build configuration list for PBXNativeTarget "EcoApp" */;
 			buildPhases = (
+				74EF11AE8094E0806DFF1E2C /* [CP] Check Pods Manifest.lock */,
 				C523ABF4244B87BF0088FB3E /* Sources */,
 				C523ABF5244B87BF0088FB3E /* Frameworks */,
 				C523ABF6244B87BF0088FB3E /* Resources */,
+				BFC383CD82B7BB21D4030F5C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C523AC08244B87C20088FB3E /* LaunchScreen.storyboard in Resources */,
+				C523AC11244BF6BD0088FB3E /* GoogleService-Info.plist in Resources */,
 				C523AC05244B87C20088FB3E /* Assets.xcassets in Resources */,
 				C523AC03244B87BF0088FB3E /* Main.storyboard in Resources */,
 			);
@@ -138,13 +199,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74EF11AE8094E0806DFF1E2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC383CD82B7BB21D4030F5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoApp/Pods-EcoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoApp/Pods-EcoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcoApp/Pods-EcoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C523ABF4244B87BF0088FB3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C560BF12244C74E700A79D8C /* HomeTableViewController.swift in Sources */,
+				C560BF14244C751F00A79D8C /* TaskViewController.swift in Sources */,
+				C560BF0E244C74CC00A79D8C /* LogInViewController.swift in Sources */,
+				C560BF0C244C74B900A79D8C /* SetUpViewController.swift in Sources */,
 				C523ABFC244B87BF0088FB3E /* AppDelegate.swift in Sources */,
 				C523ABFE244B87BF0088FB3E /* SceneDelegate.swift in Sources */,
+				C560BF10244C74D700A79D8C /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +394,13 @@
 		};
 		C523AC0D244B87C20088FB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED076F675951308F6FF4EE04 /* Pods-EcoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7V2Q4X6DAJ;
-				INFOPLIST_FILE = EcoApp/Info.plist;
+				INFOPLIST_FILE = EcoApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +414,14 @@
 		};
 		C523AC0E244B87C20088FB3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EAC3F74E74CC0FCA582F07 /* Pods-EcoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7V2Q4X6DAJ;
-				INFOPLIST_FILE = EcoApp/Info.plist;
+				INFOPLIST_FILE = EcoApp/Resources/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
