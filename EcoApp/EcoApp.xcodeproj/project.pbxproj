@@ -290,7 +290,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7V2Q4X6DAJ;
-				INFOPLIST_FILE = EcoApp/Info.plist;
+				INFOPLIST_FILE = EcoApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +309,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7V2Q4X6DAJ;
-				INFOPLIST_FILE = EcoApp/Info.plist;
+				INFOPLIST_FILE = EcoApp/Resources/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
